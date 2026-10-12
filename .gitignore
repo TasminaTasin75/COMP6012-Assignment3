@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.ipynb_checkpoints/
 *.py[codz]
 *$py.class
 
@@ -218,3 +219,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset and model caches
+.cache/
+huggingface_cache/
+
+# Large model files and checkpoints
+checkpoints/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
